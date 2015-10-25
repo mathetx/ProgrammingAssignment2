@@ -13,9 +13,10 @@ makeCacheMatrix <- function(x = matrix()) {
   setmatrix<-function(solve) m<<- solve
   getmatrix<-function() m
   list(set=set, get=get,
-  setmatrix=setmatrix,
-  getmatrix=getmatrix)
+       setmatrix=setmatrix,
+       getmatrix=getmatrix)
 
+  
 }
 
 
